@@ -22,12 +22,12 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Informations de contact */}
-          <div className="space-y-8">
+          <div className="space-y-8 flex flex-col justify-center">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 Parlons de votre projet
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-8">
+              <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed">
                 Devis gratuit, conseils personnalisés et installation professionnelle. 
                 Contactez-nous dès maintenant pour sécuriser votre domicile.
               </p>
@@ -35,50 +35,50 @@ const Contact = () => {
 
             {/* Moyens de contact */}
             <div className="space-y-6">
-              <div className="flex items-center space-x-4 p-4 bg-green-50 rounded-xl border border-green-200">
+              <div className="flex items-center space-x-4 p-6 bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-200 dark:border-green-800">
                 <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
                   <MessageCircle className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900 dark:text-white">WhatsApp (Recommandé)</h4>
-                  <p className="text-green-600 font-medium">06 60 24 59 37</p>
+                  <p className="text-green-600 dark:text-green-400 font-medium text-lg">06 60 24 59 37</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Réponse rapide garantie</p>
                 </div>
                 <button 
                   onClick={whatsappContact}
-                  className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors"
+                  className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 hover:scale-105 transition-all duration-300 font-medium"
                 >
                   Contacter
                 </button>
               </div>
 
-              <div className="flex items-center space-x-4 p-4 bg-blue-50 rounded-xl border border-blue-200">
+              <div className="flex items-center space-x-4 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900 dark:text-white">Téléphone</h4>
-                  <p className="text-blue-600 font-medium">06 60 24 59 37</p>
+                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">06 60 24 59 37</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Lun-Ven 8h-18h, Sam 9h-17h</p>
                 </div>
               </div>
             </div>
 
             {/* Avantages */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-center space-x-3 p-3 bg-orange-50 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+              <div className="flex items-center space-x-3 p-4 bg-orange-50 dark:bg-orange-900/20 rounded-lg">
                 <Clock className="w-5 h-5 text-orange-500" />
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Devis sous 24h</span>
               </div>
-              <div className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg">
+              <div className="flex items-center space-x-3 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
                 <Users className="w-5 h-5 text-blue-500" />
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Équipe d'experts</span>
               </div>
-              <div className="flex items-center space-x-3 p-3 bg-green-50 rounded-lg">
+              <div className="flex items-center space-x-3 p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">
                 <MapPin className="w-5 h-5 text-green-500" />
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Déplacement gratuit</span>
               </div>
-              <div className="flex items-center space-x-3 p-3 bg-purple-50 rounded-lg">
+              <div className="flex items-center space-x-3 p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
                 <Mail className="w-5 h-5 text-purple-500" />
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Suivi personnalisé</span>
               </div>
@@ -86,17 +86,17 @@ const Contact = () => {
           </div>
 
           {/* Call-to-action principal */}
-          <div className="bg-gradient-to-br from-orange-500 to-blue-600 rounded-2xl p-8 md:p-12 text-white">
+          <div className="bg-gradient-to-br from-orange-500 to-blue-600 rounded-2xl p-8 md:p-12 text-white flex flex-col justify-center">
             <div className="text-center space-y-6">
               <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto">
                 <MessageCircle className="w-10 h-10" />
               </div>
               
-              <h3 className="text-2xl md:text-3xl font-bold">
+              <h3 className="text-2xl md:text-3xl font-bold leading-tight">
                 Prêt à sécuriser votre domicile ?
               </h3>
               
-              <p className="text-white/90 text-lg">
+              <p className="text-white/90 text-lg leading-relaxed">
                 Contactez-nous maintenant pour un devis gratuit et personnalisé. 
                 Nos experts vous conseillent et vous accompagnent dans votre projet.
               </p>
@@ -104,19 +104,19 @@ const Contact = () => {
               <div className="space-y-4">
                 <button 
                   onClick={whatsappContact}
-                  className="w-full bg-white text-orange-600 py-4 px-6 rounded-xl font-bold text-lg hover:bg-gray-50 transition-colors flex items-center justify-center space-x-3"
+                  className="w-full bg-white text-orange-600 py-4 px-6 rounded-xl font-bold text-lg hover:bg-gray-50 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3"
                 >
                   <span>💬</span>
                   <span>Demander un devis gratuit</span>
                 </button>
                 
                 <div className="text-center text-white/80">
-                  <p className="font-semibold">06 60 24 59 37</p>
+                  <p className="font-semibold text-lg">06 60 24 59 37</p>
                   <p className="text-sm">Réponse garantie sous 2h en semaine</p>
                 </div>
               </div>
 
-              <div className="flex items-center justify-center space-x-6 text-sm text-white/80">
+              <div className="flex items-center justify-center space-x-6 text-sm text-white/80 flex-wrap gap-2">
                 <span>✓ Devis gratuit</span>
                 <span>✓ Installation incluse</span>
                 <span>✓ Garantie 2 ans</span>

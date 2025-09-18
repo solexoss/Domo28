@@ -88,7 +88,7 @@ const ProductGallery = () => {
         </div>
 
         {/* Grille de produits */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -96,16 +96,16 @@ const ProductGallery = () => {
 
         {/* Call-to-action */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-orange-50 to-blue-50 dark:from-gray-800 dark:to-gray-700 p-8 rounded-2xl">
+          <div className="bg-gradient-to-r from-orange-50 to-blue-50 dark:from-gray-800 dark:to-gray-700 p-8 md:p-12 rounded-2xl max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Besoin d'aide pour choisir ?
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
+            <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg">
               Contactez nos experts pour un conseil personnalisé et un devis gratuit
             </p>
             <button 
               onClick={() => window.open('https://wa.me/33660245937', '_blank')}
-              className="bg-green-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-green-600 transition-colors inline-flex items-center space-x-2"
+              className="bg-green-500 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-600 hover:scale-105 transition-all duration-300 inline-flex items-center space-x-2"
             >
               <span>💬</span>
               <span>Conseil gratuit sur WhatsApp</span>
