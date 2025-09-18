@@ -43,7 +43,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden border border-gray-100 dark:border-gray-700">
       {/* Image du produit */}
-      <div className="relative h-80 overflow-hidden bg-gray-50 dark:bg-gray-800">
+      <div className="relative h-80 overflow-hidden">
         <img 
           src={product.image} 
           alt={product.name}
