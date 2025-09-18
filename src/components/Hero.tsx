@@ -26,15 +26,6 @@ const Hero = () => {
         <div className="space-y-8">
           {/* Logo et titre principal */}
           <div className="space-y-4">
-            <div className="inline-flex items-center space-x-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center shadow-lg">
-                <div className="text-white font-bold text-lg">D28</div>
-              </div>
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
-                DOMO<span className="text-orange-500">28</span>
-              </span>
-            </div>
-            
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
               Serrures
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-blue-500">
