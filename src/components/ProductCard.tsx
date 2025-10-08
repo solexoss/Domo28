@@ -65,13 +65,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* Caractéristiques */}
         <div className="space-y-2 mb-6">
           <h4 className="font-semibold text-gray-800 dark:text-gray-200 text-sm">Caractéristiques :</h4>
-          <div className="grid grid-cols-1 gap-2">
+          <div className="flex flex-wrap gap-3">
             {product.features.map((feature, index) => (
-              <div key={index} className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-400">
+              <div key={index} className="flex items-center space-x-1 bg-gray-50 dark:bg-gray-700 px-3 py-1.5 rounded-full text-xs text-gray-600 dark:text-gray-300">
                 <div className="text-orange-500">
                   {getFeatureIcon(feature)}
                 </div>
-                <span className="text-sm">{feature}</span>
+                <span>{feature}</span>
               </div>
             ))}
           </div>
