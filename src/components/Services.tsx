@@ -104,8 +104,8 @@ const Services = () => {
           </div>
 
           <div className="text-center mt-12">
-            <button 
-              onClick={() => window.open('https://wa.me/33660245937', '_blank')}
+            <button
+              onClick={() => window.open('https://wa.me/212660245937', '_blank')}
               className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center space-x-2 text-lg"
             >
               <span>💬</span>

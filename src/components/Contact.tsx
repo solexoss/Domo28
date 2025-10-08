@@ -3,7 +3,7 @@ import { Phone, MessageCircle, Clock, MapPin, Mail, Users } from 'lucide-react';
 
 const Contact = () => {
   const whatsappContact = () => {
-    window.open('https://wa.me/33660245937', '_blank');
+    window.open('https://wa.me/212660245937', '_blank');
   };
 
   return (

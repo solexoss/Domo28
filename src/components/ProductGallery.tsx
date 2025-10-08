@@ -103,8 +103,8 @@ const ProductGallery = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg">
               Contactez nos experts pour un conseil personnalisé et un devis gratuit
             </p>
-            <button 
-              onClick={() => window.open('https://wa.me/33660245937', '_blank')}
+            <button
+              onClick={() => window.open('https://wa.me/212660245937', '_blank')}
               className="bg-green-500 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-600 hover:scale-105 transition-all duration-300 inline-flex items-center space-x-2"
             >
               <span>💬</span>

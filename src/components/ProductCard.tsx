@@ -37,7 +37,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const message = encodeURIComponent(
       `Bonjour ! Je suis intéressé(e) par la ${product.name}. Pourriez-vous me donner plus d'informations et un devis ?`
     );
-    window.open(`https://wa.me/33660245937?text=${message}`, '_blank');
+    window.open(`https://wa.me/212660245937?text=${message}`, '_blank');
   };
 
   return (
