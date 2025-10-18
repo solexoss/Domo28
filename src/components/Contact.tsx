@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900 dark:text-white">Téléphone</h4>
-                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">+33 6 60 24 59 37</p>
+                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">+212 660 24 59 37</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Lun-Ven 8h-18h, Sam 9h-17h</p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                 </button>
                 
                 <div className="text-center text-white/80">
-                  <p className="font-semibold text-lg">+33 6 60 24 59 37</p>
+                  <p className="font-semibold text-lg">+212 660 24 59 37</p>
                   <p className="text-sm">Réponse garantie sous 2h en semaine</p>
                 </div>
               </div>

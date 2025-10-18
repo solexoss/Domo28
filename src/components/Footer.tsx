@@ -40,16 +40,24 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3">
-              <button 
+              <button
                 onClick={whatsappContact}
                 className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span>06 60 24 59 37</span>
+                <span>+212 660 24 59 37</span>
               </button>
               <div className="flex items-center space-x-2 text-gray-400">
+                <Phone className="w-4 h-4" />
+                <span>+212 669 15 42 35</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>contact@domo28.fr</span>
+                <span>badr.assanoussi@domo28.com</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-400">
+                <Mail className="w-4 h-4" />
+                <span>ali.belgamra@domo28.com</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Clock className="w-4 h-4" />
