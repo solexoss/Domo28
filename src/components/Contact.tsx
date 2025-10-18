@@ -35,30 +35,13 @@ const Contact = () => {
 
             {/* Moyens de contact */}
             <div className="space-y-6">
-              <div className="flex items-center space-x-4 p-6 bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-200 dark:border-green-800">
-                <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-6 h-6 text-white" />
-                </div>
-                <div className="flex-1">
-                  <h4 className="font-semibold text-gray-900 dark:text-white">WhatsApp (Recommandé)</h4>
-                  <p className="text-green-600 dark:text-green-400 font-medium text-lg">06 60 24 59 37</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Réponse rapide garantie</p>
-                </div>
-                <button 
-                  onClick={whatsappContact}
-                  className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 hover:scale-105 transition-all duration-300 font-medium"
-                >
-                  Contacter
-                </button>
-              </div>
-
               <div className="flex items-center space-x-4 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900 dark:text-white">Téléphone</h4>
-                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">06 60 24 59 37</p>
+                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">+33 6 60 24 59 37</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Lun-Ven 8h-18h, Sam 9h-17h</p>
                 </div>
               </div>
@@ -111,7 +94,7 @@ const Contact = () => {
                 </button>
                 
                 <div className="text-center text-white/80">
-                  <p className="font-semibold text-lg">06 60 24 59 37</p>
+                  <p className="font-semibold text-lg">+33 6 60 24 59 37</p>
                   <p className="text-sm">Réponse garantie sous 2h en semaine</p>
                 </div>
               </div>
